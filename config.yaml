@@ -1,0 +1,64 @@
+projectName: All the glossary terms for Digital Marketingrewr
+jsonFilePath: ./input.json
+baseUrl: https://publish7.com
+portalHeading: Digital Marketing Glossary Portaler
+portalDescription: >-
+  Unlock growth with AI Agents designed to drive sales and enhance your
+  marketing strategy.
+portalTitle: Digital Marketing Insights and Tools
+searchPlaceholder: Search glossary terms...
+useAlphabetsCategory: true
+homeLink: https://publish7.com/
+logoLink: https://publish7.com/frontend/images/logo.svg
+ctaText: Get Started
+aboutLink: https://publish7.com/about
+productsLink: https://publish7.com/products
+logoImgUrl: https://publish7.com/frontend/images/logo.svg
+ctaLink: https://publish7.com/auth
+copyrightText: © 2023 Publish7. All rights reserved.
+faviconUrl: https://publish7.com/favicon.ico
+googleTagManagerId: ''
+pagesTitle:
+  prefix: ''
+  suffix: ''
+categoryPagesTitle:
+  prefix: ''
+  suffix: ''
+templateRoot:
+  - ./templates
+  - ./templates
+homeTemplatePath: ./templates/homePageTemplate.ejs
+categoryTemplatePath: ./templates/categoryTemplate.ejs
+pageTemplatePath: ./templates/pagesTemplate.ejs
+outputDir: ./output
+socialLinks:
+  - platform: Twitter
+    url: https://twitter.com/publish7
+  - platform: Facebook
+    url: https://facebook.com/publish7
+  - platform: LinkedIn
+    url: https://linkedin.com/company/publish7
+theme:
+  primaryColor: '#FF5734'
+  secondaryColor: '#C70039'
+  backgroundColor: '#F1F1F1'
+  textColor: '#333333'
+  accentColor: '#900C3F'
+fonts:
+  - family: Arial
+    weights:
+      - 400
+      - 500
+      - 600
+  - family: Helvetica
+    weights:
+      - 500
+      - 600
+      - 700
+data:
+  - categoryName: default
+    categorySlug: /
+    pages:
+      - pageTitle: Off-Page SEO
+      - pageTitle: Compliance
+      - pageTitle: Customer Engagement
